@@ -20,7 +20,7 @@ az group deployment create -n pingvmcreate -g eastusrg --template-file ./LGEVDIP
 ```
 
 As soon as the virtual machine is deployed, the ping script is executed.
-The script is self downloads the target and accumulates the result in min, avg, and max to output.txt
+The script is downloads a file containing ping target and accumulates min, avg, and max result to output.txt
 
 ### Retreiving the outputfile ###
 Login to the virtual machine and execute the following command
